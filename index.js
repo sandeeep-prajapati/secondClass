@@ -53,23 +53,37 @@
 
 // let if = 4
 // console.log(if);
+ var year =prompt("enter your year");
+ var result = year==1?`${4-parseInt(year)} year remain`: 1;
+ if(result != 1){
+    console.log(result);
+    alert("it is time to upgarde your skills");
+ }
+ var result = year==2?`${4-parseInt(year)} year remain`: 1;
+ if(result != 1){
+    console.log(result);
+    alert("it is time to upgarde your skills");
+
+ }
+ var result = year==3?`${4-parseInt(year)} year remain`: 1;
+ if(result != 1){
+    console.log(result);
+    alert("it is time to upgarde your skills");
+
+ }
+ var result = year==4?`${4-parseInt(year)} year remain`: 1;
+ if(result != 1){
+    console.log(result);
+ }
 
 
 
-let year = prompt("enter your current year");
-var result = year==1?"you have 3 year reaming":1;
-if(result !=1){
-    console.log(result);
-}
-var result = year==2?"you have 2 year reaming":1;
-if(result !=1){
-    console.log(result);
-}
-var result = year==3?"you have 1 year reaming":1;
-if(result !=1){
-    console.log(result);
-}
-var result = year==4?"you have 0 year reaming":1;
-if(result !=1){
-    console.log(result);
-}
+
+ // condition
+
+var age = prompt("enter your age ")
+var result = age>=25?"you should a job of 7+ lpa":"you should upgrade your skills ";
+
+console.log(result)
+
+
