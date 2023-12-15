@@ -118,6 +118,11 @@
 // let myname = "Sandeep Prajapati";
 // console.log(`i am ${bday} and my birth day is ${myname}`);
 
-let universityName = 2101200100122;
-let myname = "Sandeep Prajapati";
-console.log(`i am ${myname} and my University roll number is is ${myname}`);
+// let universityName = 2101200100122;
+// let myname = "Sandeep Prajapati";
+// console.log(`i am ${myname} and my University roll number is is ${myname}`);
+
+
+let a =10
+let b =20
+console.log(`sum of a and b is : ${a+b}`);
