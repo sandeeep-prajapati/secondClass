@@ -53,37 +53,63 @@
 
 // let if = 4
 // console.log(if);
- var year =prompt("enter your year");
- var result = year==1?`${4-parseInt(year)} year remain`: 1;
- if(result != 1){
-    console.log(result);
-    alert("it is time to upgarde your skills");
- }
- var result = year==2?`${4-parseInt(year)} year remain`: 1;
- if(result != 1){
-    console.log(result);
-    alert("it is time to upgarde your skills");
+//  var year =prompt("enter your year");
+//  var result = year==1?`${4-parseInt(year)} year remain`: 1;
+//  if(result != 1){
+//     console.log(result);
+//     alert("it is time to upgarde your skills");
+//  }
+//  var result = year==2?`${4-parseInt(year)} year remain`: 1;
+//  if(result != 1){
+//     console.log(result);
+//     alert("it is time to upgarde your skills");
 
- }
- var result = year==3?`${4-parseInt(year)} year remain`: 1;
- if(result != 1){
-    console.log(result);
-    alert("it is time to upgarde your skills");
+//  }
+//  var result = year==3?`${4-parseInt(year)} year remain`: 1;
+//  if(result != 1){
+//     console.log(result);
+//     alert("it is time to upgarde your skills");
 
- }
- var result = year==4?`${4-parseInt(year)} year remain`: 1;
- if(result != 1){
-    console.log(result);
- }
+//  }
+//  var result = year==4?`${4-parseInt(year)} year remain`: 1;
+//  if(result != 1){
+//     console.log(result);
+//  }
 
 
 
 
  // condition
 
-var age = prompt("enter your age ")
-var result = age>=25?"you should a job of 7+ lpa":"you should upgrade your skills ";
+// var age = prompt("enter your age ")
+// var result = age>=25?"you should a job of 7+ lpa":"you should upgrade your skills ";
 
-console.log(result)
+// console.log(result)
+// let i =4;
+// console.log('pre increment',++i);
+// console.log('without ++',i);
+var inc =4;
+console.log('pre increment',++inc);
+console.log('without ++',inc);
+var bmc =4;
+console.log('pre increment',++bmc);
+console.log('without ++',bmc);
+var dbs =4;
+console.log('pre increment',++dbs);
+console.log('without ++',dbs);
+var sds =4;
+console.log('pre increment',++sds);
+console.log('without ++',sds);
 
-
+var inc =4;
+console.log('Post Incremant',inc++);
+console.log('without ++',inc);
+var bmc =4;
+console.log('Post Incremant',bmc++);
+console.log('without ++',bmc);
+var dbs =4;
+console.log('Post Incremant',dbs++);
+console.log('without ++',dbs);
+var sds =4;
+console.log('Post Incremant',sds++);
+console.log('without ++',sds);
