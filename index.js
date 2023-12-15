@@ -123,6 +123,23 @@
 // console.log(`i am ${myname} and my University roll number is is ${myname}`);
 
 
-let a =10
-let b =20
-console.log(`sum of a and b is : ${a+b}`);
+// let a =10
+// let b =20
+// console.log(`sum of a and b is : ${a+b}`);
+
+// let fevfood = "litti chokha";
+
+// let bday = "sunday";
+// let fevplace = "Banspar baijauli";
+// let fevCompany = "spaceX";
+// let fevAnimal = "panda";
+// let fevPet = "German sefert";
+// let hobbie = "Code";
+// console.log(`fevfood ${fevfood},my Birthday : ${bday},my fev place : ${fevplace}, my fev company : ${fevCompany},my fev animal : ${fevAnimal}, fev pet : ${fevPet}`);
+
+
+let  i =1;
+while(i!=10){
+   console.log(`sum of ${i} and ${i+1} is : ${i + i+1}`);
+   i++;
+}
