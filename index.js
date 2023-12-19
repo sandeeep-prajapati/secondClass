@@ -138,8 +138,15 @@
 // console.log(`fevfood ${fevfood},my Birthday : ${bday},my fev place : ${fevplace}, my fev company : ${fevCompany},my fev animal : ${fevAnimal}, fev pet : ${fevPet}`);
 
 
-let  i =1;
-while(i!=10){
-   console.log(`sum of ${i} and ${i+1} is : ${i + i+1}`);
-   i++;
+// let  i =1;
+// while(i!=10){
+//    console.log(`sum of ${i} and ${i+1} is : ${i + i+1}`);
+//    i++;
+// }
+// for(let i =0;i<7;i++){
+//    console.log(`Sandeep Parjapati day :${i}`)
+// }
+let arr  = ["football","esport","drive","code","cricet","art","chess"];
+for(let i = 0;i<7;i++){
+   console.log(`Sandeep = Day ${i} -> ${arr[i]}`);
 }
