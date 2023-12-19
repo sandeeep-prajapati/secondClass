@@ -146,7 +146,12 @@
 // for(let i =0;i<7;i++){
 //    console.log(`Sandeep Parjapati day :${i}`)
 // }
-let arr  = ["football","esport","drive","code","cricet","art","chess"];
-for(let i = 0;i<7;i++){
-   console.log(`Sandeep = Day ${i} -> ${arr[i]}`);
+// let arr  = ["football","esport","drive","code","cricet","art","chess"];
+// for(let i = 0;i<7;i++){
+//    console.log(`Sandeep = Day ${i} -> ${arr[i]}`);
+// }
+
+let arr = ["om","sandeep","rajeev","ujjwal","kuber"]
+for(let i= 0;i<arr.length;i++){
+   console.log(`index of ${arr[i]} is : ${i}`);
 }
