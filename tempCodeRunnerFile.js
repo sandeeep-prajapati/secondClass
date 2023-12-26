@@ -1,4 +1,3 @@
-let arr  = ["football","esport","drive","code","cricet","art","chess"];
-for(let i = 0;i<7;i++){
-   console.log(`Sandeep = Day ${i} -> ${arr[i]}`);
-}
+for(let i=1;i<=10;i++){
+//    console.log(`7 X ${i} = ${7*i}`);
+// }

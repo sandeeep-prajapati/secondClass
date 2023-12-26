@@ -151,7 +151,38 @@
 //    console.log(`Sandeep = Day ${i} -> ${arr[i]}`);
 // }
 
-let arr = ["om","sandeep","rajeev","ujjwal","kuber"]
-for(let i= 0;i<arr.length;i++){
-   console.log(`index of ${arr[i]} is : ${i}`);
+// let arr = ["om","sandeep","rajeev","ujjwal","kuber"]
+// for(let i= 0;i<arr.length;i++){
+//    console.log(`index of ${arr[i]} is : ${i}`);
+// }
+// let arr = ['Sandeep','vipul','kriti'];
+// console.log(arr[2])
+let arr = ['Sandeep','Vipul','Kriti','Nidhi','om','ujjwal','rajeev','sakshi','supriya','satender'];
+// let i=0;
+// arr.forEach((element)=>{
+//    i++;
+//    console.log(`My ${i}st friend is ${element}`);
+   
+// },0)
+// for(i=0;i<=arr.length;++i){
+//    console.log(`My ${i}st friend is ${arr[i]}`);
+// }
+// for(let i=1;i<=10;i++){
+//    console.log(`7 X ${i} = ${7*i}`);
+// }
+// let hero = "Jamsbond";
+// console.log(`${hero} is a hero`)
+// let myName = "Sandeep Prajapati";
+// console.log(`my name is ${myName}`)3
+let day = ['sunday','Monday','Tusday','Wed','thu','fri'];
+
+let Work = [["play","eat","library","rest-day","sport","spirited"],["play2","eat2","library2","rest-day2","sport2","spirited2"],["play3","eat3","library3","rest-day3","sport3","spirited3"],["play","eat","library","rest-day","sport","spirited"],["play","eat","library","rest-day","sport","spirited"],["play","eat","library","rest-day","sport","spirited"],["play","eat","library","rest-day","sport","spirited"],["play","eat","library","rest-day","sport","spirited"],["play","eat","library","rest-day","sport","spirited"],["play","eat","library","rest-day","sport","spirited"]]
+for(let i=0;i<;i++){
+   console.log("########################################################")
+   console.log(`                          Week ${i+1}`)
+   console.log("########################################################")
+   for(let j=0;j<day.length;j++){
+   console.log(`${day[j]} = ${Work[i][j]}`)
+   }
+
 }
