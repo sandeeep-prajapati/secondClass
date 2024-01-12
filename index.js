@@ -12,5 +12,5 @@ if(open){
 console.log(`i will attend the class`);
 }
 else{
-console.log(`collage is closed today`);
+console.log(`collage is closed today !`);
 }
