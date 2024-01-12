@@ -186,3 +186,9 @@ for(let i=0;i<;i++){
    }
 
 }
+
+else{
+console.log(`collage is closed today !`);
+}
+
+
