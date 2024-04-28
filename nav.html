@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Menu</title>
+    <style>
+      /* Base styles for the navigation menu */
+      .navbar {
+        background-color: #090909;
+        overflow: hidden;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: #fffefe;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+
+      /* Responsive styles */
+      @media screen and (max-width: 600px) {
+        .navbar a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </body>
+</html>
